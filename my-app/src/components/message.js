@@ -10,6 +10,7 @@ class message extends Component {
 	}
 
 	changeMessage() {
+		console.log('in');
 		this.setState({
 			message: 'Good job',
 		});
