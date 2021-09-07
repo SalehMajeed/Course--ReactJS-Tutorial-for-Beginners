@@ -3,7 +3,13 @@ const React = require('react');
 
 class Welcome extends Component {
 	render() {
-		return <h1>Oye {this.props.name} Class Component</h1>;
+		const { name, character_name } = this.props;
+		// return <h1>Oye {this.props.name} Class Component</h1>;
+		return (
+			<h1>
+				Oye {name} from Class Component as {character_name}
+			</h1>
+		);
 	}
 }
 

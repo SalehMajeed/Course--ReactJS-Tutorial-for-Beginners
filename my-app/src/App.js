@@ -11,8 +11,8 @@ class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<Greet name='bruce' />
-				<Welcome name='richard' />
+				<Greet name='bruce' heroname='batman' />
+				<Welcome name='dianah' character_name='wonder women' />
 				<Hello name='rock' />
 				<Message name='user' />
 				<Counter name=''></Counter>
